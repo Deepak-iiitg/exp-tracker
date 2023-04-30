@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <form>
+            
+           <nav class="navbar fuild justify-content-center navbar-dark bg-primary">
+                Expense Tracker
+            </nav>
+        <div class="container justify-content-center">
+            <div class="form-group col-md-8">
+                <label for="expense">Choose Expense Amount</label>
+                <input class="form-control" id="expense" type="number"/>
+            </div>
+            <div class="form-group col-md-8">
+              <label for="description">Choose description</label>
+              <select class="form-control" id="description">
+                <option></option>
+                <option>sads</option>
+                <option>Petrol</option>
+                <option>On vocation</option>
+                <option>diesel</option>
+                <option>hello</option>
+                <option>1234</option>
+              </select>
+            </div>
+            <div class="form-group col-md-8">
+                <label for="category">Choose a category</label>
+                <select class="form-control" id="category">
+                    <option></option>
+                  <option>sads</option>
+                  <option>food</option>
+                  <option>electricity</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <button type="button" class="btn btn-primary" id="submit">Add Expense</button>
+              </div>
+          </form>  
+            <ul id="list" class="list-group">
+            </ul>
+          </div>
+          <script src="index.js"></script>
+    </body>
+</html>
